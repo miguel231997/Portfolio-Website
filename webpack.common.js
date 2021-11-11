@@ -10,8 +10,8 @@ module.exports = {
       {
         test: /\.html$/,
           loader: 'html-loader',
-        test: /\.html$/,
-        use: ["html-loader"],
+        // test: /\.html$/,
+        // use: ["html-loader"],
       },
       {
         test: /\.(png|jpe?g|gif|svg)$/i,
