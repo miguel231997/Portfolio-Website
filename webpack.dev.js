@@ -20,9 +20,6 @@ module.exports = merge(common, {
       
       {
         
-          test: /\.html$/,
-          loader: 'html-loader',
-        
         test: /\.scss$/,
         use: [
           "style-loader", //3. Inject styles into DOM
