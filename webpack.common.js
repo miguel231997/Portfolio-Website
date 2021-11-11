@@ -9,6 +9,8 @@ module.exports = {
     rules: [
       {
         test: /\.html$/,
+          loader: 'html-loader',
+        test: /\.html$/,
         use: ["html-loader"],
       },
       {
